@@ -16,7 +16,7 @@ compile-java:
 	javac	./java/com/{{ pkg }}/*.java -d .
 
 run-java:
-	java {{ pkg }}.Main
+	java {{ pkg }}.Lox
 
 compile-c:
 	gcc ./c/main.c
